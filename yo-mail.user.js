@@ -12,8 +12,8 @@
 // @run-at        document-start
 // @homepageURL   https://github.com/Yojka/userscripts
 // @supportURL    https://github.com/Yojka/userscripts/issues
-// @downloadURL   https://raw.githubusercontent.com/Yojka/userscripts/master/yo-mail.js
-// @updateURL     https://raw.githubusercontent.com/Yojka/userscripts/master/yo-mail.js
+// @downloadURL   https://raw.githubusercontent.com/Yojka/userscripts/master/yo-mail.user.js
+// @updateURL     https://raw.githubusercontent.com/Yojka/userscripts/master/yo-mail.user.js
 // @grant         GM_addStyle
 // ==/UserScript==
 GM_addStyle(`
