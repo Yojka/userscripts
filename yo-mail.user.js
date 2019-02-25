@@ -1,14 +1,12 @@
 // ==UserScript==
 // @name          Yo Mail
 // @namespace     https://github.com/Yojka
-// @version       190225
+// @version       190226
 // @description   Тёмная тема для лёгкой Яндекс почты
 // @author        Yojka
 // @license       MIT
-// @include       http://mail.yandex.ru/*
-// @include       https://mail.yandex.ru/*
-// @include       http://*.mail.yandex.ru/*
-// @include       https://*.mail.yandex.ru/*
+// @include       *://mail.yandex.ru/*
+// @include       *://*.mail.yandex.ru/*
 // @homepageURL   https://github.com/Yojka/userscripts
 // @supportURL    https://github.com/Yojka/userscripts/issues
 // @downloadURL   https://raw.githubusercontent.com/Yojka/userscripts/master/yo-mail.user.js
@@ -58,4 +56,5 @@ input[placeholder],input::-moz-placeholder{color:#fff!important}
 .b-pager__links{float:right;overflow:hidden;display:block;margin-right:10px}
 .b-message-head{padding:0!important;border-bottom:2px solid #e40!important}
 .b-message-body__content a{color:#e40!important}
+.b-message-reply{width:auto!important}
 `);
