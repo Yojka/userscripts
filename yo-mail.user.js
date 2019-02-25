@@ -9,11 +9,11 @@
 // @include       https://mail.yandex.ru/*
 // @include       http://*.mail.yandex.ru/*
 // @include       https://*.mail.yandex.ru/*
-// @run-at        document-start
 // @homepageURL   https://github.com/Yojka/userscripts
 // @supportURL    https://github.com/Yojka/userscripts/issues
 // @downloadURL   https://raw.githubusercontent.com/Yojka/userscripts/master/yo-mail.user.js
 // @updateURL     https://raw.githubusercontent.com/Yojka/userscripts/master/yo-mail.user.js
+// @run-at        document-start
 // @grant         GM_addStyle
 // ==/UserScript==
 GM_addStyle(`
@@ -57,4 +57,5 @@ input[placeholder],input::-moz-placeholder{color:#fff!important}
 .b-pager{margin:0!important;padding:0!important;position:absolute;right:-10px;overflow:hidden;display:block;width:70%;bottom:10px}
 .b-pager__links{float:right;overflow:hidden;display:block;margin-right:10px}
 .b-message-head{padding:0!important;border-bottom:2px solid #e40!important}
+.b-message-body__content a{color:#e40!important}
 `);
