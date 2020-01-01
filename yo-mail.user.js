@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name          Yo Mail
+// @name          Yo-Mail
 // @namespace     https://github.com/Yojka
-// @version       190226
+// @version       200101
 // @description   Тёмная тема для лёгкой Яндекс почты
 // @author        Yojka
 // @license       MIT
@@ -57,4 +57,12 @@ input[placeholder],input::-moz-placeholder{color:#fff!important}
 .b-message-head{padding:0!important;border-bottom:2px solid #e40!important}
 .b-message-body__content a{color:#e40!important}
 .b-message-reply{width:auto!important}
+.b-page{min-height:100vh}
+::-webkit-scrollbar-button{background-image:url("");background-repeat:no-repeat;width:2px;height:0px}
+::-webkit-scrollbar-track{background-color:#343a40}
+::-webkit-scrollbar-thumb{border-radius:3px;background-color:#e40}
+::-webkit-scrollbar-thumb:hover{background-color:#f70}
+::-webkit-resizer{background-image:url("");background-repeat:no-repeat;width:4px;height:0px}
+::-webkit-scrollbar{width:7px;height:5px}
+.b-message-body__content br{display:block!important}
 `);
